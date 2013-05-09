@@ -1,0 +1,11 @@
+table.aspect-table tr td{
+  vertical-align: top;
+}
+
+table.aspect-table tr td.clues{
+  font-style: italic;
+}
+table.aspect-table tr td.sources ul li{
+  list-style: circle;
+  margin-left: 20px;
+}

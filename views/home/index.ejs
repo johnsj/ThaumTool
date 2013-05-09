@@ -1,0 +1,17 @@
+<h1>ThaumTool</h1>
+<div ng-controller="AspectController">
+  
+  <input type="text" name="search" id="search" ng-model="search">
+  <table class="aspect-table">
+    <tr ng-repeat="aspect in aspects | filter:search">
+      <td class="name">{{aspect.name}}</td>
+      <td class="clues"><span ng-repeat="clue in aspect.clues">{{clue}}<span ng-hide="$last">, </span></span></td>
+      <td class="sources">
+        <ul>
+          <li ng-repeat="source in aspect.sources">{{source}}</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+</div>
