@@ -12,21 +12,3 @@ h1{
     font-weight: bold;
     font-size: 3em;
 }
-
-input#search{
-    width:100%;
-    padding: 5px;
-}
-
-table.aspect-table tr td{
-  vertical-align: top;
-}
-
-table.aspect-table tr td span.clues{
-  font-style: italic;
-}
-table.aspect-table tr td.sources ul li{
-  list-style: disc;
-  margin-left: 20px;
-}
-

@@ -1,14 +1,24 @@
-<div class="wrapper" ng-app="thaumApp">
+<div class="container" ng-app="thaumApp">
   
-  <div class="content" ng-controller="AspectController">
-    <h1>ThaumTool</h1>
-
-    <input  type="search" 
-            name="search" 
-            id="search" 
-            placeholder="Search for aspect or item here..."
-            ng-model="search">
-    <table class="aspect-table">
+  <div ng-controller="AspectController">
+    <h1>
+      ThaumTool
+      <div class="input-prepend">
+        <span class="add-on"><i class="icon-search"></i></span>
+        <input  type="search" 
+                name="search" 
+                id="search" 
+                placeholder="Search for aspect or item here..."
+                ng-model="search">
+    </div>
+    </h1>
+    
+    <table class="table table-striped">
+      <tr>
+        <th>Symbol</th>
+        <th>Aspect Name</th>
+        <th>Items containing Aspect</th>
+      </tr>
       <tr ng-repeat="aspect in aspects | filter:search">
         <td class="sprite-holder">
           <div style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;">
@@ -22,7 +32,7 @@
         </td>
         <td class="sources">
           <ul>
-            <li ng-repeat="source in aspect.sources | filter:search">{{source}}</li>
+            <li ng-repeat="source in aspect.sources">{{source}}</li>
           </ul>
         </td>
       </tr>
