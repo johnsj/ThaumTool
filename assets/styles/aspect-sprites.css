@@ -1,0 +1,250 @@
+div.aspect-sprite{
+  position: absolute;
+  height: 512px;
+  width: 512px;
+}
+
+div.sprite-aer{
+  top: 0;
+  left: 0px;
+}
+
+div.sprite-alienis{
+  top: 0;
+  left: -64px;
+}
+
+div.sprite-animus{
+  top: 0;
+  left: -128px;
+}
+
+div.sprite-aqua{
+  top: 0;
+  left: -192px;
+}
+
+div.sprite-aura{
+  top: 0;
+  left: -256px;
+}
+
+div.sprite-bestia{
+  top: 0;
+  left: -320px;
+}
+
+div.sprite-bestiola{
+  top: 0;
+  left: -384px;
+}
+
+div.sprite-carus{
+  top: 0;
+  left: -448px;
+}
+
+div.sprite-cognito{
+  top: -64px;
+  left: 0px;
+}
+
+div.sprite-corpus{
+  top: -64px;
+  left: -64px;
+}
+
+div.sprite-fabrico{
+  top: -64px;
+  left: -128px;
+}
+
+div.sprite-flos{
+  top: -64px;
+  left: -192px;
+}
+
+div.sprite-fractus{
+  top: -64px;
+  left: -256px;
+}
+
+div.sprite-fungus{
+  top: -64px;
+  left: -320px;
+}
+
+div.sprite-gelum{
+  top: -64px;
+  left: -384px;
+}
+
+div.sprite-herba{
+  top: -64px;
+  left: -448px;
+}
+
+div.sprite-ignis{
+  top: -128px;
+  left: 0px;
+}
+
+div.sprite-imperito{
+  top: -128px;
+  left: -64px;
+}
+
+div.sprite-instrumentum{
+  top: -128px;
+  left: -128px;
+}
+
+div.sprite-lignum{
+  top: -128px;
+  left: -192px;
+}
+
+div.sprite-lux{
+  top: -128px;
+  left: -256px;
+}
+
+div.sprite-machina{
+  top: -128px;
+  left: -320px;
+}
+
+div.sprite-malum{
+  top: -128px;
+  left: -384px;
+}
+
+div.sprite-messis{
+  top: -128px;
+  left: -448px;
+}
+
+div.sprite-metallum{
+  top: -192px;
+  left: 0px;
+}
+
+div.sprite-mortuus{
+  top: -192px;
+  left: -64px;
+}
+
+div.sprite-motus{
+  top: -192px;
+  left: -128px;
+}
+
+div.sprite-mutatio{
+  top: -192px;
+  left: -192px;
+}
+
+div.sprite-obscurus{
+  top: -192px;
+  left: -256px;
+}
+
+div.sprite-pannus{
+  top: -192px;
+  left: -320px;
+}
+
+div.sprite-permutatio{
+  top: -192px;
+  left: -384px;
+}
+
+div.sprite-potentia{
+  top: -192px;
+  left: -448px;
+}
+
+div.sprite-praecantatio{
+  top: -256px;
+  left: 0px;
+}
+
+div.sprite-purus{
+  top: -256px;
+  left: -64px;
+}
+
+div.sprite-sano{
+  top: -256px;
+  left: -128px;
+}
+
+div.sprite-saxum{
+  top: -256px;
+  left: -192px;
+}
+
+div.sprite-solum{
+  top: -256px;
+  left: -256px;
+}
+
+div.sprite-sonus{
+  top: -256px;
+  left: -320px;
+}
+
+div.sprite-telum{
+  top: -256px;
+  left: -384px;
+}
+
+div.sprite-tempus{
+  top: -256px;
+  left: -448px;
+}
+
+div.sprite-tenebris{
+  top: -320px;
+  left: 0px;
+}
+
+div.sprite-tutamen{
+  top: -320px;
+  left: -64px;
+}
+
+div.sprite-vacuos{
+  top: -320px;
+  left: -128px;
+}
+
+div.sprite-venenum{
+  top: -320px;
+  left: -192px;
+}
+
+div.sprite-victus{
+  top: -320px;
+  left: -256px;
+}
+
+div.sprite-vinculum{
+  top: -320px;
+  left: -320px;
+}
+
+div.sprite-visum{
+  top: -320px;
+  left: -384px;
+}
+
+div.sprite-vitreus{
+  top: -320px;
+  left: -448px;
+}
+
+div.sprite-volito{
+  top: -384px;
+  left: 0px;
+}

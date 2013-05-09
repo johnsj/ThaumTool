@@ -1,17 +1,33 @@
-<h1>ThaumTool</h1>
-<div ng-controller="AspectController">
+<div class="wrapper" ng-app="thaumApp">
   
-  <input type="text" name="search" id="search" ng-model="search">
-  <table class="aspect-table">
-    <tr ng-repeat="aspect in aspects | filter:search">
-      <td class="name">{{aspect.name}}</td>
-      <td class="clues"><span ng-repeat="clue in aspect.clues">{{clue}}<span ng-hide="$last">, </span></span></td>
-      <td class="sources">
-        <ul>
-          <li ng-repeat="source in aspect.sources">{{source}}</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+  <div class="content" ng-controller="AspectController">
+    <h1>ThaumTool</h1>
+
+    <input  type="search" 
+            name="search" 
+            id="search" 
+            placeholder="Search for aspect or item here..."
+            ng-model="search">
+    <table class="aspect-table">
+      <tr ng-repeat="aspect in aspects | filter:search">
+        <td class="sprite-holder">
+          <div style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;">
+            <div class="aspect-sprite sprite-{{aspect.name | lowercase}}">
+              <img src="images/Sprites_Aspects.png" alt="">
+            </div>
+          </div>
+        </td>
+        <td class="name">{{aspect.name}} <br>
+          <span class="clues" ng-repeat="clue in aspect.clues">{{clue}}<span ng-hide="$last">, </span></span>
+        </td>
+        <td class="sources">
+          <ul>
+            <li ng-repeat="source in aspect.sources | filter:search">{{source}}</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    
+  </div>
 
 </div>
