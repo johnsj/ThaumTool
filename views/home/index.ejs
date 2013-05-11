@@ -1,6 +1,6 @@
 <div class="container" ng-app="thaumApp">
   
-  <div ng-controller="AspectController">
+  <div>
     <h1>
       ThaumTool
       <div class="input-prepend">
@@ -12,31 +12,13 @@
                 ng-model="search">
     </div>
     </h1>
-    
-    <table class="table table-striped">
-      <tr>
-        <th>Symbol</th>
-        <th>Aspect Name</th>
-        <th>Items containing Aspect</th>
-      </tr>
-      <tr ng-repeat="aspect in aspects | filter:search">
-        <td class="sprite-holder">
-          <div style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;">
-            <div class="aspect-sprite sprite-{{aspect.name | lowercase}}">
-              <img src="images/Sprites_Aspects.png" alt="">
-            </div>
-          </div>
-        </td>
-        <td class="name">{{aspect.name}} <br>
-          <span class="clues" ng-repeat="clue in aspect.clues">{{clue}}<span ng-hide="$last">, </span></span>
-        </td>
-        <td class="sources">
-          <ul>
-            <li ng-repeat="source in aspect.sources">{{source}}</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
+    <div class="navbar">
+      <ul class="nav">
+        <li><a href="#/aspects">Aspects</a></li>
+        <li><a href="#/research">Research</a></li>
+      </ul>
+    </div>
+    <div class="content" ng-view=""></div>
     
   </div>
 

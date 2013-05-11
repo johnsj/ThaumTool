@@ -1,0 +1,34 @@
+<script type="text/ng-template" id="templates-listresearch">
+
+  <table class="table table-striped">
+    <tr>
+      <th>Research</th>
+      <th>Aspects</th>
+    </tr>
+    <tr ng-repeat="research in researchItems | filter:search">
+      <td>{{research.name}}</td>
+      <td class="sprite-holder">
+        <div ng-repeat="aspect in research.aspects" style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;">
+          <div class="aspect-sprite sprite-{{aspect | lowercase}}">
+            <img src="images/Sprites_Aspects.png" alt="">
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!--<table>
+    <tr>
+      <td><label for="researchItem">Research Item</label></td>
+      <td><input required ng-model="newResearchItem.name" type="text" id="researchItem"></td>
+    </tr>
+    <tr>
+      <td><label for="researchAspects">Research Aspects</label></td>
+      <td><input required aspect-auto-complete="" ng-model="newResearchItem.aspects" ng-list type="text" id="researchAspects"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button ng-click="addResearch()">Add</button></td>
+    </tr>
+  </table>-->
+
+</script>

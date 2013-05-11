@@ -1,0 +1,28 @@
+<script type="text/ng-template" id="templates-listaspects">
+
+  <table class="table table-striped">
+      <tr>
+        <th>Symbol</th>
+        <th>Aspect Name</th>
+        <th>Items containing Aspect</th>
+      </tr>
+      <tr ng-repeat="aspect in aspects | filter:search">
+        <td class="sprite-holder">
+          <div style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;">
+            <div class="aspect-sprite sprite-{{aspect.name | lowercase}}">
+              <img src="images/Sprites_Aspects.png" alt="">
+            </div>
+          </div>
+        </td>
+        <td class="name">{{aspect.name}} <br>
+          <span class="clues" ng-repeat="clue in aspect.clues">{{clue}}<span ng-hide="$last">, </span></span>
+        </td>
+        <td class="sources">
+          <ul>
+            <li ng-repeat="source in aspect.sources">{{source}}</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+</script>

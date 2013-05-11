@@ -1,5 +1,5 @@
 /*---------------------
-	:: Aspect
+	:: Research
 	-> model
 ---------------------*/
 module.exports = {
@@ -14,16 +14,11 @@ module.exports = {
 		//	type: 'STRING',
 		//	defaultValue: '555-555-5555'
 		// }
-		
 		name: {
 			type: 'STRING'
 		},
 
-		clues: {
-			type: 'ARRAY'
-		},
-
-		sources: {
+		aspects: {
 			type: 'ARRAY'
 		}
 	}

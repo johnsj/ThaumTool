@@ -3,41 +3,22 @@
 	-> controller
 ---------------------*/
 var AspectController = {
+	findbyName: function (req, res) {
 
-	// To trigger this action locally, visit: `http://localhost:port/aspect/index`
-	index: function (req,res) {
+		var queryName = req.params.id;
 
-		Aspect.findAll(function(err, aspects){
-			if (err) return res.send(err, 500);
+		Aspect.findByName(queryName).done(function (err, aspects) {
+			if (err) {
+				console.log(err);
+				return res.send('Not found', 404)
+			} else {
+				if (typeof(aspects) == "undefined") {
+					return res.json([]);
+				};
+				res.json(aspects.values);
+			};
 
-			res.json(aspects.values);
 		});
-
-	},
-
-	// To trigger this action locally, visit: `http://localhost:port/aspect/create`
-	create: function (req,res) {
-
-		// This will render the view: c:\Users\John\Documents\My Dropbox\Development\sails\ThaumTool/views/aspect/create.ejs
-		res.view();
-
-	},
-
-	// To trigger this action locally, visit: `http://localhost:port/aspect/update`
-	update: function (req,res) {
-
-		// This will render the view: c:\Users\John\Documents\My Dropbox\Development\sails\ThaumTool/views/aspect/update.ejs
-		res.view();
-
-	},
-
-	// To trigger this action locally, visit: `http://localhost:port/aspect/destroy`
-	destroy: function (req,res) {
-
-		// This will render the view: c:\Users\John\Documents\My Dropbox\Development\sails\ThaumTool/views/aspect/destroy.ejs
-		res.view();
-
 	}
-
 };
 module.exports = AspectController;

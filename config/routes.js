@@ -25,6 +25,11 @@ module.exports.routes = {
 	// To route the home page to the "index" action of the "home" controller:
 	'/' : {
 		controller	: 'home'
+	},
+
+	'get /aspect/:name': {
+		controller : 'aspectController',
+		action: 'findByName'
 	}
 
 	// If you want to set up a route only for a particular HTTP method/verb 
