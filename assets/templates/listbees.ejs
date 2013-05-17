@@ -1,0 +1,38 @@
+<script type="text/ng-template" id="templates-listbees">
+  <input type="text" ng-model="specialSearch">
+  <table class="table table-striped">
+      <tr>
+        <th>Species</th>
+        <th>Branch</th>
+        <th>Resultant Mutations</th>
+        <th>Chance</th>
+        <th>Main Produce</th>
+        <th>Secondary Produce</th>
+        <th>Speciality</th>
+      </tr>
+      <tr ng-repeat="bee in bees | filter:search">
+        <td>
+          {{bee.Species}}
+        </td>
+        <td>
+          {{bee.Branch}}
+        </td>
+        <td>
+          {{bee["Resultant Mutations"]}}
+        </td>
+        <td>
+          {{bee["Chance"]}}
+        </td>
+        <td>
+          {{bee["Main Produce"]}}
+        </td>
+        <td>
+          {{bee["Secondary Produce"]}}
+        </td>
+        <td>
+           {{bee["Specialty"]}}
+        </td>
+      </tr>
+    </table>
+
+</script>

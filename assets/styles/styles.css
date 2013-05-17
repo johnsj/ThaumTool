@@ -1,14 +1,3 @@
-div.wrapper{
-    width:100%;
-}
-
-div.content{
-    margin-left:auto;
-    margin-right:auto;
-    width:960px;
-}
-
-h1{
-    font-weight: bold;
-    font-size: 3em;
+span.clues {
+  font-style: italic;
 }

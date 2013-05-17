@@ -1,0 +1,16 @@
+<table class="table table-striped">
+  <tr>
+    <th>Research</th>
+    <th>Aspects</th>
+  </tr>
+  <tr ng-repeat="research in researchItems | filter:search">
+    <td>{{research.name}}</td>
+    <td class="sprite-holder">
+      <div ng-repeat="aspect in research.aspects" style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;margin:2px;">
+        <div class="aspect-sprite sprite-{{aspect | lowercase}}">
+          <img src="images/Sprites_Aspects.png" alt="">
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
