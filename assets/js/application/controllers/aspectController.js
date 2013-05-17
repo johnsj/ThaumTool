@@ -1,9 +1,9 @@
 var thaumApp = thaumApp || {};
 
-thaumApp.controller("AspectController", function ($scope, $resource) {
+thaumApp.controller("AspectController", function ($scope, $resource, $http) {
   var AspectResource = $resource('/aspect');
 
-  var SingleAspectResource = $resource(
+  /*var SingleAspectResource = $resource(
       '/aspect/findbyName/:name',
       {name: '@id'}
     );
@@ -27,8 +27,12 @@ thaumApp.controller("AspectController", function ($scope, $resource) {
       };
     });
 
-  };
+  };*/
 
-  $scope.aspects = AspectResource.query({});
+  //$scope.aspects = AspectResource.query({});
+
+  $http.get('/aspects.json').success(function (data) {
+    $scope.aspects = data;
+  });
 
 });

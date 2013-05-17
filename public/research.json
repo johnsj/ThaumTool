@@ -1,0 +1,964 @@
+[
+    {
+        "id": 1,
+        "name": "Magical Building Blocks",
+        "aspects": [
+            "Lignum",
+            "Saxum",
+            "Fabrico",
+            "Praecantatio",
+            "Metallum"
+        ],
+        "createdAt": "2013-05-11T00:52:59.334Z",
+        "updatedAt": "2013-05-11T00:52:59.334Z"
+    },
+    {
+        "id": 2,
+        "name": "Magic Tallow",
+        "aspects": [
+            "Corpus",
+            "Ignis"
+        ],
+        "createdAt": "2013-05-11T00:53:25.467Z",
+        "updatedAt": "2013-05-11T00:53:25.467Z"
+    },
+    {
+        "id": 3,
+        "name": "Nitor",
+        "aspects": [
+            "Lux",
+            "Ignis",
+            "Potentia"
+        ],
+        "createdAt": "2013-05-11T00:54:26.264Z",
+        "updatedAt": "2013-05-11T00:54:26.264Z"
+    },
+    {
+        "id": 4,
+        "name": "Alumentum",
+        "aspects": [
+            "Fractus",
+            "Ignis",
+            "Potentia"
+        ],
+        "createdAt": "2013-05-11T00:54:49.875Z",
+        "updatedAt": "2013-05-11T00:54:49.875Z"
+    },
+    {
+        "id": 5,
+        "name": "Basic Transmutation (gold)",
+        "aspects": [
+            "Metallum",
+            "Permutatio",
+            "Carus"
+        ],
+        "createdAt": "2013-05-11T00:55:52.525Z",
+        "updatedAt": "2013-05-11T00:55:52.525Z"
+    },
+    {
+        "id": 6,
+        "name": "Silver Transmutation",
+        "aspects": [
+            "Metallum",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T00:56:13.536Z",
+        "updatedAt": "2013-05-11T00:56:13.536Z"
+    },
+    {
+        "id": 7,
+        "name": "Iron Transmutation",
+        "aspects": [
+            "Metallum",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T00:56:36.829Z",
+        "updatedAt": "2013-05-11T00:56:36.829Z"
+    },
+    {
+        "id": 8,
+        "name": "Tin Transmutation",
+        "aspects": [
+            "Metallum",
+            "Permutatio",
+            "Vitreus"
+        ],
+        "createdAt": "2013-05-11T00:57:03.567Z",
+        "updatedAt": "2013-05-11T00:57:03.567Z"
+    },
+    {
+        "id": 9,
+        "name": "Copper Transmutation",
+        "aspects": [
+            "Metallum",
+            "Permutatio",
+            "Victus"
+        ],
+        "createdAt": "2013-05-11T00:57:40.780Z",
+        "updatedAt": "2013-05-11T00:57:40.780Z"
+    },
+    {
+        "id": 10,
+        "name": "Lead Transmutation",
+        "aspects": [
+            "Metallum",
+            "Permutatio",
+            "Vacuos"
+        ],
+        "createdAt": "2013-05-11T00:58:11.977Z",
+        "updatedAt": "2013-05-11T00:58:11.977Z"
+    },
+    {
+        "id": 11,
+        "name": "Thaumium",
+        "aspects": [
+            "Metallum",
+            "Permutatio",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T00:58:38.246Z",
+        "updatedAt": "2013-05-11T00:58:38.246Z"
+    },
+    {
+        "id": 12,
+        "name": "Gunpowder Transmutation",
+        "aspects": [
+            "Fractus",
+            "Ignis",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T00:58:57.235Z",
+        "updatedAt": "2013-05-11T00:58:57.235Z"
+    },
+    {
+        "id": 14,
+        "name": "Enchanted Fabric",
+        "aspects": [
+            "Fabrico",
+            "Pannus",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T01:01:18.933Z",
+        "updatedAt": "2013-05-11T01:01:18.933Z"
+    },
+    {
+        "id": 16,
+        "name": "Thaumometer",
+        "aspects": [
+            "Cognitio",
+            "Machina",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T01:06:27.631Z",
+        "updatedAt": "2013-05-11T01:06:27.631Z"
+    },
+    {
+        "id": 17,
+        "name": "Thaumaturge's Robes",
+        "aspects": [
+            "Tutamen",
+            "Praecantatio",
+            "Pannus"
+        ],
+        "createdAt": "2013-05-11T01:08:16.162Z",
+        "updatedAt": "2013-05-11T01:08:16.162Z"
+    },
+    {
+        "id": 18,
+        "name": "Unified Thaumic Field Theory",
+        "aspects": [
+            "Aqua",
+            "Aura",
+            "Cognitio",
+            "Ignis",
+            "Mutatio",
+            "Praecantatio",
+            "Solum",
+            "Tempus"
+        ],
+        "createdAt": "2013-05-11T01:09:06.563Z",
+        "updatedAt": "2013-05-11T01:09:06.563Z"
+    },
+    {
+        "id": 19,
+        "name": "Crystal Clusters",
+        "aspects": [
+            "Praecantatio",
+            "Permutatio",
+            "Vitreus"
+        ],
+        "createdAt": "2013-05-11T01:09:58.143Z",
+        "updatedAt": "2013-05-11T01:09:58.143Z"
+    },
+    {
+        "id": 20,
+        "name": "Bees and Magic",
+        "aspects": [
+            "Bestiola",
+            "Lignum",
+            "Herba"
+        ],
+        "createdAt": "2013-05-11T01:10:23.337Z",
+        "updatedAt": "2013-05-11T01:10:23.337Z"
+    },
+    {
+        "id": 21,
+        "name": "Concentrated Compound",
+        "aspects": [
+            "Aqua",
+            "Messis",
+            "Solum"
+        ],
+        "createdAt": "2013-05-11T01:10:48.173Z",
+        "updatedAt": "2013-05-11T01:10:48.173Z"
+    },
+    {
+        "id": 22,
+        "name": "Magic Frame",
+        "aspects": [
+            "Bestia",
+            "Bestiola",
+            "Instrumentum",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T01:11:17.997Z",
+        "updatedAt": "2013-05-11T01:11:17.997Z"
+    },
+    {
+        "id": 23,
+        "name": "Stark Bees",
+        "aspects": [
+            "Bestiola",
+            "Mutatio",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T01:12:07.698Z",
+        "updatedAt": "2013-05-11T01:12:07.698Z"
+    },
+    {
+        "id": 24,
+        "name": "Thaumic Bees",
+        "aspects": [
+            "Aqua",
+            "Aura",
+            "Bestiola",
+            "Ignis",
+            "Praecantatio",
+            "Solum"
+        ],
+        "createdAt": "2013-05-11T01:13:10.526Z",
+        "updatedAt": "2013-05-11T01:13:10.526Z"
+    },
+    {
+        "id": 25,
+        "name": "Metabolic frame",
+        "aspects": [
+            "Bestiola",
+            "Permutatio",
+            "Instrumentum",
+            "Victus",
+            "Corpus",
+            "Motus",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T01:13:55.561Z",
+        "updatedAt": "2013-05-11T01:13:55.561Z"
+    },
+    {
+        "id": 26,
+        "name": "Necrotic Frame",
+        "aspects": [
+            "Bestiola",
+            "Praecantatio",
+            "Instrumentum",
+            "Permutatio",
+            "Mortuus",
+            "Venenum"
+        ],
+        "createdAt": "2013-05-11T01:14:37.126Z",
+        "updatedAt": "2013-05-11T01:14:37.126Z"
+    },
+    {
+        "id": 27,
+        "name": "Temporal Frame",
+        "aspects": [
+            "Bestiola",
+            "Instrumentum",
+            "Tempus"
+        ],
+        "createdAt": "2013-05-11T01:15:07.165Z",
+        "updatedAt": "2013-05-11T01:15:07.165Z"
+    },
+    {
+        "id": 28,
+        "name": "Gentle Frame",
+        "aspects": [
+            "Victus",
+            "Sano",
+            "Flos",
+            "Bestiola",
+            "Instrumentum",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T01:15:39.858Z",
+        "updatedAt": "2013-05-11T01:15:39.858Z"
+    },
+    {
+        "id": 29,
+        "name": "Resilient Frame",
+        "aspects": [
+            "Bestiola",
+            "Tutamen",
+            "Instrumentum",
+            "Permutatio",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T01:16:28.926Z",
+        "updatedAt": "2013-05-11T01:16:28.926Z"
+    },
+    {
+        "id": 30,
+        "name": "Boots of the Traveller",
+        "aspects": [
+            "Aqua",
+            "Motus",
+            "Solum",
+            "Tutamen",
+            "Volito"
+        ],
+        "createdAt": "2013-05-11T01:17:44.463Z",
+        "updatedAt": "2013-05-11T01:17:44.463Z"
+    },
+    {
+        "id": 31,
+        "name": "Wand of Equal Trade",
+        "aspects": [
+            "Instrumentum",
+            "Permutatio",
+            "Praecantatio"
+        ],
+        "createdAt": "2013-05-11T01:18:10.476Z",
+        "updatedAt": "2013-05-11T01:18:10.476Z"
+    },
+    {
+        "id": 32,
+        "name": "Wand of Excavation",
+        "aspects": [
+            "Instrumentum",
+            "Metallum",
+            "Praecantatio",
+            "Saxum"
+        ],
+        "createdAt": "2013-05-11T01:18:37.260Z",
+        "updatedAt": "2013-05-11T01:18:37.260Z"
+    },
+    {
+        "id": 33,
+        "name": "Wand of Fire",
+        "aspects": [
+            "Fractus",
+            "Ignis",
+            "Praecantatio",
+            "Telum"
+        ],
+        "createdAt": "2013-05-11T01:19:05.695Z",
+        "updatedAt": "2013-05-11T01:19:05.695Z"
+    },
+    {
+        "id": 34,
+        "name": "Wand of Lightning",
+        "aspects": [
+            "Fractus",
+            "Potentia",
+            "Praecantatio",
+            "Telum"
+        ],
+        "createdAt": "2013-05-11T01:19:28.314Z",
+        "updatedAt": "2013-05-11T01:19:28.314Z"
+    },
+    {
+        "id": 35,
+        "name": "Wand of Frost",
+        "aspects": [
+            "Fractus",
+            "Gelum",
+            "Praecantatio",
+            "Telum"
+        ],
+        "createdAt": "2013-05-11T01:19:54.172Z",
+        "updatedAt": "2013-05-11T01:19:54.172Z"
+    },
+    {
+        "id": 36,
+        "name": "Shovel of the Earthmover",
+        "aspects": [
+            "Solum",
+            "Instrumentum",
+            "Fractus",
+            "Fabrico"
+        ],
+        "createdAt": "2013-05-11T01:20:20.647Z",
+        "updatedAt": "2013-05-11T01:20:20.647Z"
+    },
+    {
+        "id": 37,
+        "name": "Sword of the Zephyr",
+        "aspects": [
+            "Aura",
+            "Fractus",
+            "Motus",
+            "Telum"
+        ],
+        "createdAt": "2013-05-11T01:20:38.109Z",
+        "updatedAt": "2013-05-11T01:20:38.109Z"
+    },
+    {
+        "id": 38,
+        "name": "Pickaxe of the Core",
+        "aspects": [
+            "Ignis",
+            "Instrumentum",
+            "Metallum",
+            "Visum"
+        ],
+        "createdAt": "2013-05-11T01:21:00.367Z",
+        "updatedAt": "2013-05-11T01:21:00.367Z"
+    },
+    {
+        "id": 39,
+        "name": "Axe of the Stream",
+        "aspects": [
+            "Aqua",
+            "Instrumentum",
+            "Lignum",
+            "Motus"
+        ],
+        "createdAt": "2013-05-11T01:21:23.229Z",
+        "updatedAt": "2013-05-11T01:21:23.229Z"
+    },
+    {
+        "id": 40,
+        "name": "Hoe of Growth",
+        "aspects": [
+            "Herba",
+            "Instrumentum",
+            "Messis",
+            "Victus"
+        ],
+        "createdAt": "2013-05-11T01:21:52.881Z",
+        "updatedAt": "2013-05-11T01:21:52.881Z"
+    },
+    {
+        "id": 41,
+        "name": "Magical Hand Mirror",
+        "aspects": [
+            "Vacuos",
+            "Instrumentum",
+            "Motus",
+            "Permutatio",
+            "Visum",
+            "Alienis"
+        ],
+        "createdAt": "2013-05-11T01:22:30.310Z",
+        "updatedAt": "2013-05-11T01:22:30.310Z"
+    },
+    {
+        "id": 42,
+        "name": "Thaumium Scoop (Forestry Mod)",
+        "aspects": [
+            "Lignum",
+            "Praecantatio",
+            "Instrumentum",
+            "Bestiola"
+        ],
+        "createdAt": "2013-05-11T01:23:20.634Z",
+        "updatedAt": "2013-05-11T01:23:20.634Z"
+    },
+    {
+        "id": 43,
+        "name": "Thaumium Grafter (Forestry Mod)",
+        "aspects": [
+            "Lignum",
+            "Praecantatio",
+            "Instrumentum",
+            "Herba"
+        ],
+        "createdAt": "2013-05-11T01:23:45.782Z",
+        "updatedAt": "2013-05-11T01:23:45.782Z"
+    },
+    {
+        "id": 44,
+        "name": "Void Capsule (Forestry Mod)",
+        "aspects": [
+            "Vitreus",
+            "Vacuos",
+            "Alienis",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T01:24:15.466Z",
+        "updatedAt": "2013-05-11T01:24:15.466Z"
+    },
+    {
+        "id": 45,
+        "name": "Golemancy (Wood Golem Worker)",
+        "aspects": [
+            "Animus",
+            "Imperito",
+            "Motus",
+            "Victus"
+        ],
+        "createdAt": "2013-05-11T01:25:47.159Z",
+        "updatedAt": "2013-05-11T01:25:47.159Z"
+    },
+    {
+        "id": 47,
+        "name": "Clay Golem Worker",
+        "aspects": [
+            "Imperito",
+            "Motus",
+            "Permutatio",
+            "Solum"
+        ],
+        "createdAt": "2013-05-11T02:50:22.864Z",
+        "updatedAt": "2013-05-11T02:50:22.864Z"
+    },
+    {
+        "id": 48,
+        "name": "Stone Golem Worker",
+        "aspects": [
+            "Imperito",
+            "Motus",
+            "Permutatio",
+            "Saxum"
+        ],
+        "createdAt": "2013-05-11T02:52:09.508Z",
+        "updatedAt": "2013-05-11T02:52:09.509Z"
+    },
+    {
+        "id": 49,
+        "name": "Tallow Golem Worker",
+        "aspects": [
+            "Corpus",
+            "Fabrico",
+            "Imperito",
+            "Motus",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T02:52:37.769Z",
+        "updatedAt": "2013-05-11T02:52:37.769Z"
+    },
+    {
+        "id": 50,
+        "name": "Straw Golem Worker",
+        "aspects": [
+            "Herba",
+            "Imperito",
+            "Instrumentum",
+            "Messis",
+            "Motus",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T02:53:15.816Z",
+        "updatedAt": "2013-05-11T02:53:15.816Z"
+    },
+    {
+        "id": 51,
+        "name": "Golem Perception",
+        "aspects": [
+            "Imperito",
+            "Permutatio",
+            "Visum"
+        ],
+        "createdAt": "2013-05-11T02:53:43.305Z",
+        "updatedAt": "2013-05-11T02:53:43.305Z"
+    },
+    {
+        "id": 52,
+        "name": "Golem Speed",
+        "aspects": [
+            "Imperito",
+            "Motus",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T02:54:05.009Z",
+        "updatedAt": "2013-05-11T02:54:05.009Z"
+    },
+    {
+        "id": 53,
+        "name": "Golem Strength",
+        "aspects": [
+            "Imperito",
+            "Permutatio",
+            "Potentia"
+        ],
+        "createdAt": "2013-05-11T02:54:40.086Z",
+        "updatedAt": "2013-05-11T02:54:40.086Z"
+    },
+    {
+        "id": 54,
+        "name": "Golem Intelligence",
+        "aspects": [
+            "Cognitio",
+            "Imperito",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T02:55:07.718Z",
+        "updatedAt": "2013-05-11T02:55:07.718Z"
+    },
+    {
+        "id": 55,
+        "name": "Advanced Stone Golem Worker",
+        "aspects": [
+            "Imperito",
+            "Animus",
+            "Cognitio",
+            "Permutatio",
+            "Purus"
+        ],
+        "createdAt": "2013-05-11T02:55:34.225Z",
+        "updatedAt": "2013-05-11T02:55:34.225Z"
+    },
+    {
+        "id": 56,
+        "name": "Advanced Clay Golem Worker",
+        "aspects": [
+            "Imperito",
+            "Animus",
+            "Cognitio",
+            "Permutatio",
+            "Purus"
+        ],
+        "createdAt": "2013-05-11T02:55:59.522Z",
+        "updatedAt": "2013-05-11T02:55:59.522Z"
+    },
+    {
+        "id": 57,
+        "name": "Advanced Golemancy (Iron Golem Guardian)",
+        "aspects": [
+            "Imperito",
+            "Animus",
+            "Victus",
+            "Motus",
+            "Telum",
+            "Tutamen"
+        ],
+        "createdAt": "2013-05-11T02:56:42.107Z",
+        "updatedAt": "2013-05-11T02:56:42.107Z"
+    },
+    {
+        "id": 58,
+        "name": "Goggles of Revealing",
+        "aspects": [
+            "Cognitio",
+            "Mutatio",
+            "Praecantatio",
+            "Tutamen",
+            "Visum"
+        ],
+        "createdAt": "2013-05-11T02:57:16.945Z",
+        "updatedAt": "2013-05-11T02:57:16.945Z"
+    },
+    {
+        "id": 59,
+        "name": "Basic Flux Research",
+        "aspects": [
+            "Imperito",
+            "Machina",
+            "Mutatio",
+            "Permutatio",
+            "Purus"
+        ],
+        "createdAt": "2013-05-11T02:57:40.941Z",
+        "updatedAt": "2013-05-11T02:57:40.941Z"
+    },
+    {
+        "id": 60,
+        "name": "Hungry Chest",
+        "aspects": [
+            "Animus",
+            "Motus",
+            "Permutatio",
+            "Vacuos"
+        ],
+        "createdAt": "2013-05-11T02:58:18.572Z",
+        "updatedAt": "2013-05-11T02:58:18.572Z"
+    },
+    {
+        "id": 61,
+        "name": "Portable Hole",
+        "aspects": [
+            "Alienis",
+            "Motus",
+            "Permutatio",
+            "Vacuos"
+        ],
+        "createdAt": "2013-05-11T02:58:40.497Z",
+        "updatedAt": "2013-05-11T02:58:40.497Z"
+    },
+    {
+        "id": 62,
+        "name": "Warded Stone and Doors",
+        "aspects": [
+            "Cognitio",
+            "Imperito",
+            "Machina",
+            "Motus",
+            "Tutamen"
+        ],
+        "createdAt": "2013-05-11T02:59:07.922Z",
+        "updatedAt": "2013-05-11T02:59:07.922Z"
+    },
+    {
+        "id": 63,
+        "name": "Mirror Magic",
+        "aspects": [
+            "Alienis",
+            "Permutatio",
+            "Visum",
+            "Vacuos",
+            "Motus",
+            "Vitreus"
+        ],
+        "createdAt": "2013-05-11T02:59:38.426Z",
+        "updatedAt": "2013-05-11T02:59:38.426Z"
+    },
+    {
+        "id": 64,
+        "name": "Arcane Ear",
+        "aspects": [
+            "Aura",
+            "Imperito",
+            "Machina",
+            "Visum",
+            "Sonus"
+        ],
+        "createdAt": "2013-05-11T03:00:17.293Z",
+        "updatedAt": "2013-05-11T03:00:17.293Z"
+    },
+    {
+        "id": 65,
+        "name": "Arcane Levitator",
+        "aspects": [
+            "Aura",
+            "Machina",
+            "Motus",
+            "Solum",
+            "Volito"
+        ],
+        "createdAt": "2013-05-11T03:00:45.911Z",
+        "updatedAt": "2013-05-11T03:00:45.911Z"
+    },
+    {
+        "id": 66,
+        "name": "Warded Jars",
+        "aspects": [
+            "Tutamen",
+            "Vacuos",
+            "Vinculum",
+            "Vitreus"
+        ],
+        "createdAt": "2013-05-11T03:01:15.456Z",
+        "updatedAt": "2013-05-11T03:01:15.456Z"
+    },
+    {
+        "id": 67,
+        "name": "Infernal Furnace",
+        "aspects": [
+            "Animus",
+            "Ignis",
+            "Imperito",
+            "Praecantatio",
+            "Saxum",
+            "Vinculum"
+        ],
+        "createdAt": "2013-05-11T03:01:46.044Z",
+        "updatedAt": "2013-05-11T03:01:46.044Z"
+    },
+    {
+        "id": 68,
+        "name": "Arcane Bellows",
+        "aspects": [
+            "Aura",
+            "Imperito",
+            "Instrumentum",
+            "Motus"
+        ],
+        "createdAt": "2013-05-11T03:02:12.185Z",
+        "updatedAt": "2013-05-11T03:02:12.185Z"
+    },
+    {
+        "id": 69,
+        "name": "Brain in a Jar",
+        "aspects": [
+            "Cognitio",
+            "Malum",
+            "Animus",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T03:02:41.052Z",
+        "updatedAt": "2013-05-11T03:02:41.052Z"
+    },
+    {
+        "id": 70,
+        "name": "Arcane Pressure Plate",
+        "aspects": [
+            "Cognitio",
+            "Imperito",
+            "Machina",
+            "Potentia",
+            "Tutamen"
+        ],
+        "createdAt": "2013-05-11T03:03:05.113Z",
+        "updatedAt": "2013-05-11T03:03:05.113Z"
+    },
+    {
+        "id": 71,
+        "name": "Theory of Everything (Wand of the Thaumaturge)",
+        "aspects": [
+            "Bestia",
+            "Bestiola",
+            "Cognitio",
+            "Corpus",
+            "Flos",
+            "Fungus",
+            "Herba",
+            "Instrumentum",
+            "Lignum",
+            "Machina",
+            "Messis",
+            "Metallum",
+            "Sonus",
+            "Telum",
+            "Tutamen",
+            "Venenum",
+            "Victus",
+            "Vitreus"
+        ],
+        "createdAt": "2013-05-11T03:04:40.263Z",
+        "updatedAt": "2013-05-11T03:04:40.263Z"
+    },
+    {
+        "id": 72,
+        "name": "Basic Aura Manipulation (Crystal Core)",
+        "aspects": [
+            "Imperito",
+            "Motus",
+            "Mutatio",
+            "Permutatio",
+            "Praecantatio",
+            "Vacuos"
+        ],
+        "createdAt": "2013-05-11T03:05:45.932Z",
+        "updatedAt": "2013-05-11T03:05:45.932Z"
+    },
+    {
+        "id": 73,
+        "name": "Arcane Bore",
+        "aspects": [
+            "Instrumentum",
+            "Machina",
+            "Metallum",
+            "Motus",
+            "Potentia",
+            "Saxum",
+            "Solum",
+            "Vacuos"
+        ],
+        "createdAt": "2013-05-11T03:06:32.305Z",
+        "updatedAt": "2013-05-11T03:06:32.305Z"
+    },
+    {
+        "id": 74,
+        "name": "Crystal Capacitor",
+        "aspects": [
+            "Vitreus",
+            "Praecantatio",
+            "Permutatio"
+        ],
+        "createdAt": "2013-05-11T03:06:48.323Z",
+        "updatedAt": "2013-05-11T03:06:48.323Z"
+    },
+    {
+        "id": 75,
+        "name": "Tiny Bowties",
+        "aspects": [
+            "Cognitio",
+            "Carus",
+            "Pannus",
+            "Motus"
+        ],
+        "createdAt": "2013-05-11T03:07:13.764Z",
+        "updatedAt": "2013-05-11T03:07:13.764Z"
+    },
+    {
+        "id": 76,
+        "name": "Tiny Fezzes",
+        "aspects": [
+            "Cognitio",
+            "Carus",
+            "Pannus",
+            "Victus"
+        ],
+        "createdAt": "2013-05-11T03:07:38.920Z",
+        "updatedAt": "2013-05-11T03:07:38.920Z"
+    },
+    {
+        "id": 77,
+        "name": "Tiny Hats",
+        "aspects": [
+            "Cognitio",
+            "Carus",
+            "Pannus",
+            "Potentia"
+        ],
+        "createdAt": "2013-05-11T03:07:57.586Z",
+        "updatedAt": "2013-05-11T03:07:57.586Z"
+    },
+    {
+        "id": 78,
+        "name": "Tiny Spectacles",
+        "aspects": [
+            "Cognitio",
+            "Carus",
+            "Visum",
+            "Vitreus"
+        ],
+        "createdAt": "2013-05-11T03:08:17.441Z",
+        "updatedAt": "2013-05-11T03:08:17.441Z"
+    },
+    {
+        "id": 79,
+        "name": "Golem Visor",
+        "aspects": [
+            "Mortuus",
+            "Visum",
+            "Tutamen",
+            "Cognitio"
+        ],
+        "createdAt": "2013-05-11T03:08:36.777Z",
+        "updatedAt": "2013-05-11T03:08:36.777Z"
+    },
+    {
+        "id": 80,
+        "name": "Golem Dart Launcher",
+        "aspects": [
+            "Cognitio",
+            "Machina",
+            "Telum",
+            "Aura"
+        ],
+        "createdAt": "2013-05-11T03:09:05.995Z",
+        "updatedAt": "2013-05-11T03:09:05.995Z"
+    },
+    {
+        "id": 81,
+        "name": "Golem Iron Plating",
+        "aspects": [
+            "Cognitio",
+            "Metallum",
+            "Tutamen"
+        ],
+        "createdAt": "2013-05-11T03:09:27.909Z",
+        "updatedAt": "2013-05-11T03:09:27.909Z"
+    }
+]
