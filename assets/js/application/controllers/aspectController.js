@@ -1,7 +1,7 @@
 var thaumApp = thaumApp || {};
 
 thaumApp.controller("AspectController", function ($scope, $resource, $http) {
-  var AspectResource = $resource('/aspect');
+  //var AspectResource = $resource('/aspect');
 
   /*var SingleAspectResource = $resource(
       '/aspect/findbyName/:name',
