@@ -1,6 +1,6 @@
 var thaumApp = thaumApp || {};
 
-thaumApp.controller("AspectController", function ($scope, $resource, $http) {
+thaumApp.controller("AspectController", function ($scope, $http) {
   //var AspectResource = $resource('/aspect');
 
   /*var SingleAspectResource = $resource(
@@ -30,6 +30,8 @@ thaumApp.controller("AspectController", function ($scope, $resource, $http) {
   };*/
 
   //$scope.aspects = AspectResource.query({});
+
+  $scope.aspects = [];
 
   $http.get('/aspects.json').success(function (data) {
     $scope.aspects = data;

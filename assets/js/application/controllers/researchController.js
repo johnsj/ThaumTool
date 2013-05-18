@@ -1,6 +1,6 @@
 var thaumApp = thaumApp || {};
 
-thaumApp.controller('ResearchController', function ($scope, $resource, $http) {
+thaumApp.controller('ResearchController', function ($scope, $http) {
   /*
   var ResearchResource = $resource('/research');
 
@@ -30,8 +30,11 @@ thaumApp.controller('ResearchController', function ($scope, $resource, $http) {
   */
   //$scope.researchItems = ResearchResource.query({});
 
+  $scope.researchItems = [];
+
   $http.get('/research.json').success(function (data) {
     $scope.researchItems = data;
+    console.log(data);
   });
 
 });
