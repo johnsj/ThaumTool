@@ -1,0 +1,1 @@
+{"ts":1368794776501,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"// App bootstrap\n// Code to run before launching the app\n//\n// Make sure you call cb() when you're finished.\nmodule.exports.bootstrap = function (cb) {\n\tcb();\n};"]],"start1":0,"start2":0,"length1":0,"length2":161}]],"length":161}
