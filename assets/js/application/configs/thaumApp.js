@@ -7,7 +7,16 @@ thaumApp.config(function($routeProvider){
       templateUrl: 'template/listaspects.html',
       controller: 'AspectController'
     })
-    .when('/research',{
+    .when('/aspects/:aspect',
+    {
+      templateUrl: 'template/listaspects.html',
+      controller: 'AspectController'
+    })
+    .when('/researches',{
+      controller: 'ResearchController',
+      templateUrl: 'template/listresearch.html'
+    })
+    .when('/researches/:research',{
       controller: 'ResearchController',
       templateUrl: 'template/listresearch.html'
     })

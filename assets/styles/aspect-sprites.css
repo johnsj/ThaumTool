@@ -1,250 +1,209 @@
 div.aspect-sprite{
-  position: absolute;
-  height: 512px;
-  width: 512px;
+  background-image: url("/images/Sprites_Aspects.png");
+  height: 64px;
+  width: 64px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+td.sprite-holder ul li{
+  display: inline-block;
 }
 
 div.sprite-aer{
-  top: 0;
-  left: 0px;
+  background-position: 0px 0px;
 }
 
 div.sprite-alienis{
-  top: 0;
-  left: -64px;
+  background-position: -64px 0px;
 }
 
 div.sprite-animus{
-  top: 0;
-  left: -128px;
+  background-position: -128px 0px;
 }
 
 div.sprite-aqua{
-  top: 0;
-  left: -192px;
+  background-position: -192px 0px;
 }
 
 div.sprite-aura{
-  top: 0;
-  left: -256px;
+  background-position: -256px 0px;
 }
 
 div.sprite-bestia{
-  top: 0;
-  left: -320px;
+  background-position: -320px 0px;
 }
 
 div.sprite-bestiola{
-  top: 0;
-  left: -384px;
+  background-position: -384px 0px;
 }
 
 div.sprite-carus{
-  top: 0;
-  left: -448px;
+  background-position: -448px 0px;
 }
 
 div.sprite-cognitio{
-  top: -64px;
-  left: 0px;
+  background-position: 0px -64px;
 }
 
 div.sprite-corpus{
-  top: -64px;
-  left: -64px;
+  background-position: -64px -64px;
 }
 
 div.sprite-fabrico{
-  top: -64px;
-  left: -128px;
+  background-position: -128px -64px;
 }
 
 div.sprite-flos{
-  top: -64px;
-  left: -192px;
+  background-position: -192px -64px;
 }
 
 div.sprite-fractus{
-  top: -64px;
-  left: -256px;
+  background-position: -256px -64px;
 }
 
 div.sprite-fungus{
-  top: -64px;
-  left: -320px;
+  background-position: -320px -64px;
 }
 
 div.sprite-gelum{
-  top: -64px;
-  left: -384px;
+  background-position: -384px -64px;
 }
 
 div.sprite-herba{
-  top: -64px;
-  left: -448px;
+  background-position: -448px -64px; 
 }
 
 div.sprite-ignis{
-  top: -128px;
-  left: 0px;
+  background-position: 0 -128px;
 }
 
 div.sprite-imperito{
-  top: -128px;
-  left: -64px;
+  background-position: -64px -128px;
 }
 
 div.sprite-instrumentum{
-  top: -128px;
-  left: -128px;
+  background-position: -128px -128px;
 }
 
 div.sprite-lignum{
-  top: -128px;
-  left: -192px;
+  background-position: -192px -128px;
 }
 
 div.sprite-lux{
-  top: -128px;
-  left: -256px;
+  background-position: -256px -128px;
 }
 
 div.sprite-machina{
-  top: -128px;
-  left: -320px;
+  background-position: -320px -128px;
 }
 
 div.sprite-malum{
-  top: -128px;
-  left: -384px;
+  background-position: -384px -128px;
 }
 
 div.sprite-messis{
-  top: -128px;
-  left: -448px;
+  background-position: -448px -128px;
 }
 
 div.sprite-metallum{
-  top: -192px;
-  left: 0px;
+  background-position: 0 -192px;
 }
 
 div.sprite-mortuus{
-  top: -192px;
-  left: -64px;
+  background-position: -64px -192px;
 }
 
 div.sprite-motus{
-  top: -192px;
-  left: -128px;
+  background-position: -128px -192px;
 }
 
 div.sprite-mutatio{
-  top: -192px;
-  left: -192px;
+  background-position: -192px -192px;
 }
 
 div.sprite-obscurus{
-  top: -192px;
-  left: -256px;
+  background-position: -256px -192px;
 }
 
 div.sprite-pannus{
-  top: -192px;
-  left: -320px;
+  background-position: -320px -192px;
 }
 
 div.sprite-permutatio{
-  top: -192px;
-  left: -384px;
+  background-position: -384px -192px;
 }
 
 div.sprite-potentia{
-  top: -192px;
-  left: -448px;
+  background-position: -448px -192px;
 }
 
 div.sprite-praecantatio{
-  top: -256px;
-  left: 0px;
+  background-position: 0 -256px;
 }
 
 div.sprite-purus{
-  top: -256px;
-  left: -64px;
+  background-position: -64px -256px;
 }
 
 div.sprite-sano{
-  top: -256px;
-  left: -128px;
+  background-position: -128px -256px;
 }
 
 div.sprite-saxum{
-  top: -256px;
-  left: -192px;
+  background-position: -192px -256px;
 }
 
 div.sprite-solum{
-  top: -256px;
-  left: -256px;
+  background-position: -256px -256px;
 }
 
 div.sprite-sonus{
-  top: -256px;
-  left: -320px;
+  background-position: -320px -256px;
 }
 
 div.sprite-telum{
-  top: -256px;
-  left: -384px;
+  background-position: -384px -256px;
 }
 
 div.sprite-tempus{
-  top: -256px;
-  left: -448px;
+  background-position: -448px -256px;
 }
 
 div.sprite-tenebris{
-  top: -320px;
-  left: 0px;
+  background-position: 0 -320px;
 }
 
 div.sprite-tutamen{
-  top: -320px;
-  left: -64px;
+  background-position: -64px -320px;
 }
 
 div.sprite-vacuos{
-  top: -320px;
-  left: -128px;
+  background-position: -128px -320px;
 }
 
 div.sprite-venenum{
-  top: -320px;
-  left: -192px;
+  background-position: -192px -320px;
 }
 
 div.sprite-victus{
-  top: -320px;
-  left: -256px;
+  background-position: -256px -320px;
 }
 
 div.sprite-vinculum{
-  top: -320px;
-  left: -320px;
+  background-position: -320px -320px;
 }
 
 div.sprite-visum{
-  top: -320px;
-  left: -384px;
+  background-position: -384px -320px;
 }
 
 div.sprite-vitreus{
-  top: -320px;
-  left: -448px;
+  background-position: -448px -320px;
 }
 
 div.sprite-volito{
-  top: -384px;
-  left: 0px;
+  background-position: 0px -384px;
 }

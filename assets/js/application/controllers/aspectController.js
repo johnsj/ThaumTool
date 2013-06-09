@@ -1,40 +1,25 @@
 var thaumApp = thaumApp || {};
 
-thaumApp.controller("AspectController", function ($scope, $http) {
-  //var AspectResource = $resource('/aspect');
+thaumApp.controller("AspectController", function ($scope, $http, $routeParams, aspectService) {
 
-  /*var SingleAspectResource = $resource(
-      '/aspect/findbyName/:name',
-      {name: '@id'}
-    );
+  if ($routeParams.aspect) {
+    $scope.search = $routeParams.aspect;
+  };
 
   $scope.isOnServer = function(aspect){
-    console.log("Running server check with name: " + aspect.name)
-    var serverAspect = SingleAspectResource.get({name: aspect.name}, function () {
-      console.log(serverAspect);
-      console.log(aspect);
-      if (typeof(serverAspect.id) == "undefined") {
-        console.log("No");
-        console.log("Attempting to save to DB");
-        var newAspect = new AspectResource();
-        newAspect.name = aspect.name;
-        newAspect.clues = aspect.clues;
-        newAspect.sources = aspect.sources;
+    
+    aspectService.checkByName(aspect.name);
 
-        newAspect.$save();
-      } else{
-        console.log("Yes");
-      };
-    });
+  };
 
-  };*/
+  $scope.aspects = aspectService.getAll();
 
-  //$scope.aspects = AspectResource.query({});
+  //$scope.aspects = aspectService.getAll();
 
-  $scope.aspects = [];
-
-  $http.get('/aspects.json').success(function (data) {
+  /*$http.get('/aspects.json').success(function (data) {
     $scope.aspects = data;
-  });
+
+    //_.each(data, $scope.isOnServer)
+  });*/
 
 });

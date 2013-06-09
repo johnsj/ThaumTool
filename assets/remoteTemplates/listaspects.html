@@ -1,14 +1,23 @@
+<div class="input-prepend">
+  <span class="add-on"><i class="icon-search"></i></span>
+  <input  type="search"
+          class="span6"
+          name="search" 
+          id="search" 
+          placeholder="Search here by aspect name or items"
+          ng-model="search">
+</div>
 <table class="table table-striped">
   <tr>
     <th>Symbol</th>
     <th>Aspect Name</th>
     <th>Items containing Aspect</th>
+    <th></th>
   </tr>
   <tr ng-repeat="aspect in aspects | filter:search">
     <td class="sprite-holder">
       <div style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;">
         <div class="aspect-sprite sprite-{{aspect.name | lowercase}}">
-          <img src="images/Sprites_Aspects.png" alt="">
         </div>
       </div>
     </td>

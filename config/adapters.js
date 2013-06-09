@@ -5,7 +5,7 @@ module.exports.adapters = {
 
 	// If you leave the adapter config unspecified 
 	// in a model definition, 'default' will be used.
-	'default': 'sails-dirty',
+	'default': 'mongo',
 	
 	// In-memory adapter for DEVELOPMENT ONLY
 	// (data is NOT preserved when the server shuts down)
@@ -33,5 +33,12 @@ module.exports.adapters = {
 		user		: 'YOUR_MYSQL_USER',
 		password	: 'YOUR_MYSQL_PASSWORD',
 		database	: 'YOUR_MYSQL_DB'
-	}
+	},
+
+	mongo: {
+    module		: 'sails-mongo',
+    host 			: 'localhost',
+    db 				: 'thaumtool',
+    url     	: 'mongodb://sails:password@localhost:27017/thaumtool'
+  }
 };

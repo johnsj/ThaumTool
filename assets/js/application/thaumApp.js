@@ -1,7 +1,7 @@
 var thaumApp = thaumApp || {};
 
 thaumApp = angular
-  .module('thaumApp',['ngResource']);
+  .module('thaumApp',['ui.bootstrap','ngResource']);
 
 // var thaumApp = angular
 //   .module('thaumApp',['ngResource'])

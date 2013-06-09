@@ -1,16 +1,33 @@
+<div class="input-prepend">
+  <span class="add-on"><i class="icon-search"></i></span>
+  <input  type="search"
+          class="span6"
+          name="search" 
+          id="search" 
+          placeholder="Search here by research name or aspect"
+          ng-model="search">
+</div>
 <table class="table table-striped">
   <tr>
     <th>Research</th>
     <th>Aspects</th>
+    <th></th>
   </tr>
   <tr ng-repeat="research in researchItems | filter:search">
     <td>{{research.name}}</td>
     <td class="sprite-holder">
-      <div ng-repeat="aspect in research.aspects" style="position:relative; height:64px; width:64px; overflow:hidden;display:inline-block; vertical-align:middle;margin:2px;">
-        <div class="aspect-sprite sprite-{{aspect | lowercase}}">
-          <img src="images/Sprites_Aspects.png" alt="">
-        </div>
-      </div>
+      <ul>
+        
+        <li ng-repeat="aspect in research.aspects" >
+          <a href="{{'/#/aspects/' + aspect}}">
+            <div 
+                class="aspect-sprite pointer sprite-{{aspect | lowercase}}" 
+                popover="{{aspect}}"
+                popover-trigger="mouseenter"
+                popover-placement="top"></div>
+          </a>
+        </li>
+      </ul>
     </td>
   </tr>
 </table>

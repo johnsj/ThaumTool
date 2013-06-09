@@ -1,40 +1,20 @@
 var thaumApp = thaumApp || {};
 
-thaumApp.controller('ResearchController', function ($scope, $http) {
-  /*
-  var ResearchResource = $resource('/research');
+thaumApp.controller('ResearchController', function ($scope, $http, $routeParams, researchService) {
 
-  $scope.newResearchItem = {
-    name:"",
-    aspects:[]
+  if ($routeParams.research) {
+    $scope.search = $routeParams.research.split('_').join(' ');
   };
 
-  $scope.addResearch = function () {
-    //console.log($scope.newResearchItem);
-    
-    
-    var newResearch = new ResearchResource();
-
-    newResearch.name = $scope.newResearchItem.name;
-    newResearch.aspects = $scope.newResearchItem.aspects;
-
-    //newResearch.$save();
-
-    $scope.researchItems.push(newResearch);
-
-    $scope.newResearchItem = {
-      name:"",
-      aspects:[]
-    };
+  $scope.isOnServer = function(research) {
+    researchService.checkByName(research.name);
   };
-  */
-  //$scope.researchItems = ResearchResource.query({});
+  
+  $scope.researchItems = researchService.getAll();
 
-  $scope.researchItems = [];
+  /*$http.get('/research.json').success(function (data) {
 
-  $http.get('/research.json').success(function (data) {
-    $scope.researchItems = data;
-    console.log(data);
-  });
+    //_.each(data, $scope.isOnServer);
+  });*/
 
 });
